@@ -1,5 +1,3 @@
-package com.jsp.Advancejava;
-
 public class With_Builtin_Rev {
 
 	public static void main(String[] args) {
