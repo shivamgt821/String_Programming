@@ -1,5 +1,3 @@
-package com.jsp.Advancejava;
-
 public class Remove_Dup_Char_In_String {
 
 	public static void main(String[] args) {
