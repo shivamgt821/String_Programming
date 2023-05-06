@@ -1,0 +1,21 @@
+public class NextVowel {
+
+	public static void main(String[] args) {
+				String s = "p";
+				s = s.toLowerCase();
+				for (int i = 0; i < s.length(); i++) {
+					if (s.charAt(i) >= 'a' && s.charAt(i) < 'e') {
+						System.out.println("e");
+					} else if (s.charAt(i) >= 'e' && s.charAt(i) < 'i') {
+						System.out.println("i");
+					} else if (s.charAt(i) >= 'i' && s.charAt(i) < 'o') {
+						System.out.println("o");
+					} else if (s.charAt(i) >= 'o' && s.charAt(i) < 'u') {
+						System.out.println("u");
+					} else {
+						System.out.println("a");
+					}
+				}
+			}
+	}
+
